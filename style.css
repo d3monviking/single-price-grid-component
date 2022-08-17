@@ -1,0 +1,75 @@
+* {
+    font-family: 'Karla', sans-serif;
+}
+
+
+body {
+    background: hsl(204, 43%, 93%);
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    margin: 150px auto;
+    overflow: hidden;
+    width: 550px;
+    border-radius: 10px;
+}
+
+
+.bottom-row {
+    display: flex;
+    flex-direction: row;
+    align-content: stretch;
+    color: white;    
+}
+
+.join {
+    background-color: white;
+    padding: 35px;
+}
+
+.para{
+    font-size: 13px;
+    line-height: 5px;
+    color:hsl(218, 22%, 67%) ;
+}
+
+.subscription {
+    background-color: hsl(179, 62%, 43%);
+    padding: 20px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    flex-shrink: 2;
+}
+
+.text-mod{
+    opacity: 0.7;
+    font-size: 0.5em;
+    font-weight: 400;
+    padding-left: 0.4em;
+}
+
+.why-us {
+    padding: 25px;
+    text-align: left;
+    background-color: hsl(179, 62%, 43%);
+    opacity: 0.7;
+    flex-grow: 3;
+    line-height: 0.5em;
+    font-size: 12px;
+}
+
+.why-us > p {
+    opacity: 0.8;
+}
+
+button{
+    background-color:  hsl(71, 73%, 54%);
+    border: none;
+    width: 90%;
+    color:white;
+    height: 25%;
+    border-radius: 4px;
+}
+
